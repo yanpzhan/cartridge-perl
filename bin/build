@@ -99,3 +99,5 @@ then
   cpanm $MIRROR -L ${OPENSHIFT_PERL_DIR}perl5lib --installdeps .
   popd > /dev/null
 fi
+
+date > ${OPENSHIFT_DATA_DIR}/$key
