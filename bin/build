@@ -100,4 +100,4 @@ then
   popd > /dev/null
 fi
 
-date > ${OPENSHIFT_DATA_DIR}/$key
+#date > ${OPENSHIFT_DATA_DIR}/$key
